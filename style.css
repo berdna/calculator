@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .calculator {
+    border: 5px black solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    align-items: center;
+    aspect-ratio: 2/3 auto;
+}
+.container .display {
+    display: flex;
+    flex: 1;
+    border: 1px solid grey;
+    aspect-ratio: 3/1 auto;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container .btn-span-2 {
+    flex: 0.5;
+    display: flex; 
+}
+.btn-span-2 button {
+    aspect-ratio: 2/1 auto;
+    width: 100px;
+}
+.container .btn-row {
+    display: flex;
+}
+.btn-row:last-child {
+    margin-bottom: 20px;
+}
+.container .btn-row button {
+    aspect-ratio: 1;
+    width: 50px;
+}
